@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(8, 142, 142);
+    padding-bottom: 8px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: antiquewhite;
+    margin-bottom: 3.7rem;
+    margin-top: 8px;
+}
+.moves-btn{
+    background-color: rgb(158, 25, 25);
+    border: none;
+    height: 8rem;
+    width: 8rem;
+    margin-right: 3rem;
+    border-radius: 50%;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+.moves-btn:hover{
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.moves-btn:active{
+    opacity: 0.5;
+}
+.moves-img{
+    height: 5.2rem;
+    width: 5.2rem;
+}
+.score-count{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 8px;
+}
+p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: antiquewhite;
+    text-align: center;
+}
+.game-played{
+    display: flex;
+    margin-bottom: 8px;
+}
+.total-played{
+    margin-right: 15px;
+}
+.display-move{
+    background-color: rgb(89, 123, 50);
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.reset-btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(249, 249, 149);
+    color: rgb(40, 40, 181);
+    font-weight: 600;
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+}
+.reset-btn:hover{
+    border: 3px solid rgb(219, 153, 39);
+    padding: 15px 25px;
+}
+.reset-btn:active{
+    opacity: 0.8;
+}
